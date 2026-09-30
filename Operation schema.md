@@ -28,3 +28,6 @@ The operation schema follows:
 | OP20 | Record Power-Loss Incident | Power-loss event | Logging system is available. | Power-loss incident is stored with relevant details. |
 | OP21 | Verify Chamber Safe Condition | Post-incident sensor/status data | Recovery or incident response is in progress. | Chamber safety status is confirmed. |
 | OP22 | Authorize Artifact Removal | Removal request + safety status | Artifact and chamber meet required safety conditions. | Artifact removal is authorized or rejected. |
+| OP23 | Record Conservation Activity | Operator action / conservation update | Artifact is registered and the system is operational. | Conservation activity is recorded with time and operator details. |
+| OP24 | Check Communication Link | Communication status signal | Monitoring system is powered and communication module is available. | Communication status is confirmed or a communication fault is reported. |
+| OP25 | Validate Sensor Reading | New sensor reading | Sensor is active and a reading is available. | Reading is accepted as valid or marked for review. |
